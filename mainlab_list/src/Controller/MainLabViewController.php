@@ -19,18 +19,23 @@ class MainLabViewController extends ControllerBase {
   public function mainlabviewslist() {
 
     /**
-     * Retrieving and marging two functions. See below the functions:  retrieveArrayOne() AND retrieveArrayTwo()
+     * Retrieve and merge two functions. Functions:  retrieveArrayOne() AND retrieveArrayTwo()
      */
     $retrieveData = $this->mergeTwoArrays();
     $content = "<H2></H2>";
     foreach ($retrieveData as $key1 => $finalValues) {
 
+      // If $key1 == 0, display Crop.
       if ($key1 == 0) {
         foreach ($finalValues as $disCrop) {
           $content .= "<details>";
           $content .= '<summary>' . $disCrop . '</summary>';
 
+          /**
+           * Object array.
+           */
           foreach ($retrieveData as $key2 => $secondlevelCrop) {
+            // If $key2 == 1, display Cultivar(title), and the body information.
             if($key2 == 1) {
               foreach ($secondlevelCrop as $secondlevelCrop) {
                 $content .= '<p class="dt-body-justify" style="width:80%">';
