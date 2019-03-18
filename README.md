@@ -11,10 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Drupal 8.6.x
-PHP 7.1.x
-Custom module mlfruitandnut (D8)
-MySQL or  PostgreSQL
+- Drupal 8.6.x
+- PHP 7.1.x
+- Custom module mlfruitandnut (D8)
+- MySQL or  PostgreSQL
 
 ### Installing
 
