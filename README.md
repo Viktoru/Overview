@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Title
 
 One Paragraph of project description goes here...
@@ -78,4 +79,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 This project is licensed under the WSU Main Lab - see the [LICENSE.md](LICENSE.md) file for details
 
 
+=======
+# OVERVIEW LIST
+
+### Prerequisites
+
+* Drupal 8.6.x
+* PHP 7.1.x
+* Custom module mlfruitandnut (D8)
+* MySQL or  PostgreSQL
+>>>>>>> 28be63417cb22e1a719c870c42ec58f5ebb4af55
 
