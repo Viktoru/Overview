@@ -31,7 +31,7 @@ To run a test you need to install the mlfruitandnut module. Next, add data into 
 ## Built With
 
 * [CodyHouse](https://codyhouse.co/) - The web framework used
-* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local
+* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local by Victor
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
 * [PHP 7.1.x](http://php.net/) - PHP version
 
@@ -45,4 +45,4 @@ Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
 
 ## License
 
-This project is licensed under the WSU Main Lab - see the [LICENSE.md](http://www.bioinfo.wsu.edu) file for details
+This project is licensed under the WSU Main Lab - see the [Main Website](http://www.bioinfo.wsu.edu) for details.
