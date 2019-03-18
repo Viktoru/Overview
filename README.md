@@ -2,7 +2,7 @@
 
 Drupal 8 custom module Overview. Retrieves or bring back nodes from a content type form. 
 
-Examples: [image one](/Viktoru/Overview/blob/master/ScreenShot.png) and [image two](/Viktoru/Overview/blob/master/ScreenShot2.png)
+Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 
 ## Getting Started
 
