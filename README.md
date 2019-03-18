@@ -33,6 +33,7 @@ To run a test you need to install the mlfruitandnut module. Next, add data into 
 * [CodyHouse](https://codyhouse.co/) - The web framework used
 * [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
+* [PHP 7.1.x](http://php.net/) - PHP version
 
 ## Contributing
 
