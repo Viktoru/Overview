@@ -15,6 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 - PHP 7.1.x
 - Custom module mlfruitandnut (D8)
 - MySQL or  PostgreSQL
+- CSV Import Module [CSV Import](https://www.drupal.org/project/csv_importer) - Downloads 8.x.1.4
 
 ### Installing
 
