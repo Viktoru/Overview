@@ -61,7 +61,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [CodyHouse](https://codyhouse.co/) - The web framework used
-* [Collapsible](/tree/master/mainlab_list/assets/css) - Local
+* [Collapsible](https://github.com/Viktoru/Overview/tree/master/mainlab_list/assets/css) - Local
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
 
 ## Contributing
@@ -75,7 +75,5 @@ Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
 ## License
 
 This project is licensed under the WSU Main Lab - see the [LICENSE.md](http://www.bioinfo.wsu.edu) file for details
-
-
 
 
