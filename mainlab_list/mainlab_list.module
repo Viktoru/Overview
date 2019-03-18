@@ -1,0 +1,30 @@
+<?php
+/**
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ *
+ * @return array
+ */
+function mainlab_list_theme($existing, $type, $theme, $path) {
+  return [
+    'mainlab_list' => [
+      'variables' => ['items__page' => NULL],
+      'template' => 'mainlab_list',
+    ],
+//    'mainlab_list2' => [
+//      'variables' => ['items__page2' => NULL],
+//      'template' => 'mainlab_list2',
+//    ],
+
+  ];
+
+}
+
+/**
+ * @param array $page
+ */
+//function mainlab_list_page_attachments(array &$page) {
+//  $page['#attached']['library'][] = 'mainlab_list/mainlab_list';
+//}

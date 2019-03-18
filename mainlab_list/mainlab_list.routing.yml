@@ -1,0 +1,7 @@
+mainlab_list.content:
+  path: '/mainlab_list'
+  defaults:
+    _controller: '\Drupal\mainlab_list\Controller\MainLabViewController::mainlabviewslist'
+    _title: 'Data Overview'
+  requirements:
+    _permission: 'access content'

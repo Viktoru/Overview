@@ -1,0 +1,12 @@
+mainlab_list:
+  version: 1.0
+  css:
+    theme:
+      assets/css/collapsibles.css: {}
+      assets/css/style.css: {}
+
+  js:
+    assets/js/main.js: {}
+
+  dependencies:
+    - core/jquery
