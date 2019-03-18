@@ -70,7 +70,7 @@ Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
 
 ## Authors
 
-* **Victor P Unda** - *Initial work* - [PurpleBooth](https://github.com/Viktoru/)
+* **Victor P Unda** - *Initial work* - [Victor](https://github.com/Viktoru/)
 
 ## License
 
