@@ -2,6 +2,8 @@
 
 Drupal 8 custom module Overview. Retrieves or bring back nodes from a content type form. 
 
+Examples: [image one](/Viktoru/Overview/blob/master/ScreenShot.png) and [image two](/Viktoru/Overview/blob/master/ScreenShot2.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -81,11 +83,5 @@ This project is licensed under the WSU Main Lab - see the [LICENSE.md](LICENSE.m
 =======
 # OVERVIEW LIST
 
-### Prerequisites
 
-* Drupal 8.6.x
-* PHP 7.1.x
-* Custom module mlfruitandnut (D8)
-* MySQL or  PostgreSQL
->>>>>>> 28be63417cb22e1a719c870c42ec58f5ebb4af55
 
