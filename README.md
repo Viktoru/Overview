@@ -1,6 +1,6 @@
 # OVERVIEW PROJECT
 
-Drupal 8: Custom module called Overview. Retrieves or bring back nodes from a content type form. 
+Drupal 8: Custom module called Overview. Retrieves or bring back nodes from a content type & form. 
 Display Cultivar and Crop data. 
 
 Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
