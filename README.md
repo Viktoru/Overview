@@ -9,9 +9,6 @@ Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
 After you install that module you will be able to install this module Overview.
 
-### Important 
-
-This custom module works with a content type form already created by a second custom module called mlfruitandnut. This custom module installs and sets up the content type form based on data already inserted by a second module.
 
 ### Prerequisites
 
@@ -24,6 +21,8 @@ This custom module works with a content type form already created by a second cu
 ### Installing
 
 To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend to install the module.
+
+This custom module works with a content type form already created by a second custom module called mlfruitandnut. This custom module installs and sets up the content type form based on data already inserted by a second module.
 
 ## Running the tests
 
