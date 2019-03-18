@@ -1,13 +1,13 @@
 # OVERVIEW PROJECT
 
-Drupal 8: Custom module called Overview. Retrieves or bring back nodes from a content type & form. 
-Display Cultivar and Crop data. 
+The custom module called Overview list displays a Crop and Cultivars, allowing data to be displayed  "dynamically". You can expand the symbol "+" to see more details from each crop and cultivar.
 
 Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
+After you install that module you will be able to install this module Overview.
 
 ### Prerequisites
 
@@ -19,45 +19,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend to install the module.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+To run a test you need to install the mlfruitandnut module. Next, add data into your content type form. Then you can search on your domainname.com/mainlab_list to see your Overview data.
 
 ## Built With
 
