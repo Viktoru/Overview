@@ -61,7 +61,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [CodyHouse](https://codyhouse.co/) - The web framework used
-* [Collapsible](/assets/css) - Local
+* [Collapsible](/tree/master/mainlab_list/assets/css) - Local
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
 
 ## Contributing
