@@ -68,21 +68,14 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Victor P Unda** - *Initial work* - [PurpleBooth](https://github.com/Viktoru/)
 
 ## License
 
-This project is licensed under the WSU Main Lab - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the WSU Main Lab - see the [LICENSE.md](http://www.bioinfo.wsu.edu) file for details
 
-
-=======
-# OVERVIEW LIST
 
 
 
