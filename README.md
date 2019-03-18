@@ -9,6 +9,10 @@ Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
 After you install that module you will be able to install this module Overview.
 
+### Important 
+
+This custom module works with a content type form already created by a second custom module called mlfruitandnut. This custom module installs and sets up the content type form based on data already inserted by a second module.
+
 ### Prerequisites
 
 - Drupal 8.6.x
@@ -42,5 +46,3 @@ Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
 ## License
 
 This project is licensed under the WSU Main Lab - see the [LICENSE.md](http://www.bioinfo.wsu.edu) file for details
-
-
