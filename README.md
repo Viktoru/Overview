@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Project Title
+# OVERVIEW PROJECT
 
 One Paragraph of project description goes here...
 
