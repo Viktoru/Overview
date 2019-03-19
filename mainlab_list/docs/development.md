@@ -125,4 +125,30 @@ $retrieveData = $this->mergeTwoArrays();
   }
 
 ```   
+   + Return values field_mlfruitandnut_crop & one unique value.
    
+
+```batch
+
+/**
+   * @return array
+   */
+  function retrieveArrayTwo() {
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status',1);
+    $query->condition('type','mlfruitandnut');
+    $query->sort('field_mlfruitandnut_crop', 'ASC');
+    $entity = $query->execute();
+    $options = array();
+    foreach ($entity as $n) {
+      $node = \Drupal\node\Entity\Node::load($n);
+      $options[$node->id()] = $node->get('field_mlfruitandnut_crop')->value;
+    }
+
+    $arrayUniqueRecord = array_unique($options, SORT_REGULAR);
+
+    return $arrayUniqueRecord;
+
+  }
+
+```
