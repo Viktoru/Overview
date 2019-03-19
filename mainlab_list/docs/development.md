@@ -167,3 +167,22 @@ mainlab_list.content:
     _permission: 'access content'
 
 ```
+  + Defining a library: Define all of your asset libraries in .libraries.yml file.
+  + [Drupal 8 is not longer loads JQuery on all pages by default](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme). 
+  
+```batch
+
+mainlab_list:
+  version: 1.0
+  css:
+    theme:
+      assets/css/collapsibles.css: {}
+      assets/css/style.css: {}
+
+  js:
+    assets/js/main.js: {}
+
+  dependencies:
+    - core/jquery
+
+```
