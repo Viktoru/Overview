@@ -152,3 +152,18 @@ $retrieveData = $this->mergeTwoArrays();
   }
 
 ```
+
+   + Routing return some sort of content on. For instance, '/mainlab_list' is a route. If the route is not found 
+   Drupal  returns a 404.
+   
+```batch
+
+mainlab_list.content:
+  path: '/mainlab_list'
+  defaults:
+    _controller: '\Drupal\mainlab_list\Controller\MainLabViewController::mainlabviewslist'
+    _title: 'Data Overview'
+  requirements:
+    _permission: 'access content'
+
+```
