@@ -7,8 +7,12 @@ Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 ## Getting Started
 
 Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
-After you install that module you will be able to install this module Overview.
+After you install that module you will be able to install this module Overview. Also, you need to add the field "link_the_site".
+Go to your Content Types, select "Main Lab Fruit and Nut". Click on Manage Fields and Add field called "field_link_the_site".
+Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
 
+Note: In the future you can create a Custom Content Type by creating a YAML file that contain all the required configuration.
+For more details go to the mlfruitandnut>config>install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
 
 ### Prerequisites
 
