@@ -60,7 +60,7 @@ $retrieveData = $this->mergeTwoArrays();
                   if(isset($field_linking) || $FinalValueCompBody === False) {
 
                     $connection = \Drupal::database();
-                    $query = $connection->query("SELECT * FROM `node__field_link_the_site` INNER JOIN node_field_data ON node_field_data.title = node__field_link_the_site.field_link_the_site_value WHERE node_field_data.type = node__field_link_the_site.bundle");
+                    $query = $connection->query("SELECT * FROM {node__field_link_the_site} INNER JOIN node_field_data ON node_field_data.title = node__field_link_the_site.field_link_the_site_value WHERE node_field_data.type = node__field_link_the_site.bundle");
                     $resultRecords = $query->fetchAll();
 
                     foreach ($resultRecords as $obj) {
