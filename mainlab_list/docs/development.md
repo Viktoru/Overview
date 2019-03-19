@@ -90,3 +90,39 @@ $retrieveData = $this->mergeTwoArrays();
       }
     }
 ```
+
+
+   + Return values Crop, link the site, body, title and nid.
+```batch
+
+ /**
+   * @return string
+   */
+  private function retrieveArrayOne() {
+
+    $query = \Drupal::entityQuery('node');
+    $query->condition('status',1);
+    $query->condition('type','mlfruitandnut');
+    $query->sort('title', 'ASC');
+    $entity = $query->execute();
+    $options = array();
+
+    foreach ($entity as $n) {
+      $node = \Drupal\node\Entity\Node::load($n);
+      $options[$node->id()] = $node->getTitle();
+      $elementA[] = [//
+        'nid' => $node->get('nid')->value,
+        'title' => $node->get('title')->value,
+        'body' => $node->get('body')->value,
+        'field_link_the_site' => $node->get('field_link_the_site')->value,
+        'field_mlfruitandnut_crop' => $node->get('field_mlfruitandnut_crop')->value,
+      ];
+    }
+
+    return $elementA;
+
+
+  }
+
+```   
+   
