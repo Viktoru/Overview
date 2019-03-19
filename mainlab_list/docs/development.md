@@ -92,7 +92,7 @@ $retrieveData = $this->mergeTwoArrays();
 ```
 
 
-   + Return values Crop, link the site, body, title and nid.
+   + Return values field_mlfruitandnut_crop, field_link_the_site, body, title and nid.
 ```batch
 
  /**
