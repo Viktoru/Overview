@@ -160,7 +160,6 @@ class MainLabViewController extends ControllerBase {
     return $arrayUniqueRecord;
 
   }
-
   /**
    * @return array
    */
