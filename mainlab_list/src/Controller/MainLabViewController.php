@@ -100,6 +100,7 @@ class MainLabViewController extends ControllerBase {
         }
       }
     }
+    $content .= '<a href="#0" class="cd-top js-cd-top">Top</a>';
     return array(
       '#type' => 'markup',
       '#markup' => $content,
