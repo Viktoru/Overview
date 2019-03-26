@@ -14,11 +14,12 @@ git clone https://github.com/Viktoru/Overview.git
 ```
 B. Drag and drop the Custom module Overview files to your "Custom" folder or "modules" folder.
 
-After you install the module you need to add a field and name it "link_the_site". This field allows you to connect to the module Overview. Go to your Drupal 8 site, and select Content Types named "Main Lab Fruit and Nut". Click on the Manage Fields option, and "Add" a field name "field_link_the_site". Make sure it is exactly the same name.
-Otherwise, it will return an error after you install the module Overview.
+After you install the module you need to add a field and name it "link_the_site". This field allows you to connect to the module Overview. 
+Go to your Drupal 8 site, and select Content Types named "Main Lab Fruit and Nut". Click on the Manage Fields option, and "Add" a field name "field_link_the_site". Make sure it is exactly the same name. Otherwise, it will return an error after you install the module Overview.
 
 Note: In the future you can create a Custom Content Type file by creating a YAML file that contains all the required configurations. For more details go to the mlfruitandnut->config->install folders. 
 Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md). for more information about this module.
+
 ### Prerequisites
 
 - Drupal 8.6.x
@@ -29,8 +30,7 @@ Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/mas
 
 ### Installing
 
-To install the Overview module you just need to copy the module into your Drupal 8 Module folder or custom folder.
-After that go to my Drupal 8 Extend Menu to install the module.
+To install the Overview module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend Menu to install the module.
 
 ## Built With
 
