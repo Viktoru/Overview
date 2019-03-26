@@ -1,4 +1,4 @@
-# OVERVIEW PROJECT
+# PROJECT OVERVIEW
 
 The custom module Overview dynamically displays Crop and Cultivars.
 
