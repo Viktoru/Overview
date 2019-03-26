@@ -2,14 +2,14 @@
 
 ## Introduction
 
-1.- The module Overview has two folders: assets and src:
+1.- The module Overview has two folders named "assets" and "src".
 
-    + The assets folder has CSS, IMG & JS files.
-    + The src has two folders: Controller and Plugin.
+    + The "assets" folder has CSS, IMG & JS files.
+    + The "src" has two folders named "Controller" and "Plugin".
     
- - Under the Controller Class MainLabViewController.php.
+ - Under the folder Controller you will find a Class named "MainLabViewController.php".
  
-    + Merge two functions
+    + the following script shows how two function are merged. The output or return array is $resultArrays
     
 ```batch
 $retrieveData = $this->mergeTwoArrays();  
@@ -20,7 +20,7 @@ $retrieveData = $this->mergeTwoArrays();
     return $resultArrays;
   }   
 ```
-   + Retriving ....
+   + This code shows arrays and keys to display CROP, TITLE and CONTENT from each crop and cultivar. 
    
 ```batch
  $content = "<H2></H2>";
@@ -92,7 +92,7 @@ $retrieveData = $this->mergeTwoArrays();
 ```
 
 
-   + Return values field_mlfruitandnut_crop, field_link_the_site, body, title and nid.
+   + Returns the values crop, body, title and id from the variables field_mlfruitandnut_crop, field_link_the_site, and nid.
 ```batch
 
  /**
@@ -125,7 +125,7 @@ $retrieveData = $this->mergeTwoArrays();
   }
 
 ```   
-   + Return values field_mlfruitandnut_crop & one unique value.
+   + Returns the crop values from the variable field_mlfruitandnut_crop. It is a unique value.
    
 
 ```batch
@@ -153,9 +153,8 @@ $retrieveData = $this->mergeTwoArrays();
 
 ```
 
-   + Routing return some sort of content on. For instance, '/mainlab_list' is a route. If the route is not found 
-   Drupal  returns a 404.
-   
+   + Un the routing, it the path in which it returns some sort of content on. For instance, for this module we have a path: '/mainlab_list'  
+   See [image]()
 ```batch
 
 mainlab_list.content:
