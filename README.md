@@ -6,14 +6,19 @@ See a glimpse about the module. Open this [image one](/ScreenShot.png) and [imag
 
 ## Getting Started
 
-Before you install this custom module you need to install another custom module called mlfruitandnut. Please find more information in my github custom module mlfruitandnut.
-After you install that module you will be able to install this module Overview. Also, you need to add the field "link_the_site".
-Go to your Content Types, select "Main Lab Fruit and Nut". Click on Manage Fields and Add field called "field_link_the_site".
-Make sure is exactly the same name. Otherwise, it will return an error after you install the module Overview.
+A. Cloning an Existing Repository  
+```bash
 
-Note: In the future you can create a Custom Content Type by creating a YAML file that contain all the required configuration.
-For more details go to the mlfruitandnut>config>install folders for examples or visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md).
+git clone https://github.com/Viktoru/Overview.git
 
+```
+B. Drag and drop the Custom module Overview files to your "Custom" folder or "modules" folder.
+
+After you install the module you need to add a field and name it "link_the_site". This field allows you to connect to the module Overview. Go to your Drupal 8 site, and select Content Types named "Main Lab Fruit and Nut". Click on the Manage Fields option, and "Add" a field name "field_link_the_site". Make sure it is exactly the same name.
+Otherwise, it will return an error after you install the module Overview.
+
+Note: In the future you can create a Custom Content Type file by creating a YAML file that contains all the required configurations. For more details go to the mlfruitandnut->config->install folders. 
+Also, visit [development docs](https://github.com/Viktoru/mlfruitandnut/blob/master/mlfruitandnut/docs/development.md). for more information about this module.
 ### Prerequisites
 
 - Drupal 8.6.x
@@ -24,13 +29,8 @@ For more details go to the mlfruitandnut>config>install folders for examples or 
 
 ### Installing
 
-To install this custom module you just need to copy the module into your Drupal 8 Module folder or custom folder. After that go to my Drupal 8 Extend to install the module.
-
-This custom module works with a content type form already created by a second custom module called mlfruitandnut. This custom module installs and sets up the content type form based on data already inserted by a second module.
-
-## Running the tests
-
-To run a test you need to install the mlfruitandnut module. Next, add data into your content type form. Then you can search on your domainname.com/mainlab_list to see your Overview data.
+To install the Overview module you just need to copy the module into your Drupal 8 Module folder or custom folder.
+After that go to my Drupal 8 Extend Menu to install the module.
 
 ## Built With
 
