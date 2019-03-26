@@ -9,7 +9,7 @@
     
  - Under the folder Controller you will find a Class named "MainLabViewController.php".
  
-    + the following script shows how two function are merged. The output or return array is $resultArrays
+    + The following script shows how two functions are merged. The output or return array is $resultArrays
     
 ```batch
 $retrieveData = $this->mergeTwoArrays();  
@@ -153,7 +153,7 @@ $retrieveData = $this->mergeTwoArrays();
 
 ```
 
-   + Un the routing, it the path in which it returns some sort of content on. For instance, for this module we have a path: '/mainlab_list'  
+   + The routing is the path which returns some sort of content. For instance, for this module we have a path: '/mainlab_list'.  
    See [image](https://github.com/Viktoru/Overview/blob/master/ScreenShot3.png)
 ```batch
 
@@ -167,7 +167,7 @@ mainlab_list.content:
 
 ```
   + Defining a library: Define all of your asset libraries in .libraries.yml file.
-  + [Drupal 8 is not longer loads JQuery on all pages by default](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme). 
+  + [Drupal 8 no longer loads JQuery on all pages by default](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme). 
   
 ```batch
 
