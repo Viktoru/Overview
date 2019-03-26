@@ -1,8 +1,8 @@
 # OVERVIEW PROJECT
 
-The custom module called Overview list displays a Crop and Cultivars, allowing data to be displayed  "dynamically". You can expand the symbol "+" to see more details from each crop and cultivar.
+The custom module Overview dynamically displays Crop and Cultivars.
 
-Examples: [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
+See a glimpse about the module. Open this [image one](/ScreenShot.png) and [image two](/ScreenShot2.png)
 
 ## Getting Started
 
