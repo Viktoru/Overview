@@ -39,6 +39,12 @@ After that go to my Drupal 8 Extend Menu to install the module.
 * [Bootstrap](https://getbootstrap.com/docs/3.4/) - Used to generate theme
 * [PHP 7.1.x](http://php.net/) - PHP version
 
+
+## Development
+
+Please read [Development](https://github.com/Viktoru/Overview/blob/master/mainlab_list/docs/development.md) for details.
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/Viktoru/) for details.
